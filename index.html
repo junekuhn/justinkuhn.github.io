@@ -22,21 +22,19 @@
         
         <header>
             <div>
-                <div class="jumbotron text-center">
-                    <h1>Justin Kuhn</h1>
-                    <h3 id='slogan'>Helping you reach new frontiers</h3>
+                <div class="container-fluid text-center thehead">
+                    <h1 id="name">Justin Kuhn</h1>
+                    <h3 id='slogan' class="lead">Helping you reach new frontiers</h3>
                 </div>
                 
                 
                 <nav class="container-fluid text-center">
                    
                         <div class="row">
-                        <a href="/website-optimization.html"  class="col-6 p-4"><div>Website Optimization</div></a>
-                        <a href="/immersive-media.html"  class="col-6 p-4"><div>VR Immersive Media</div></a>
-                        </div>
-                        <div class="row">
-                         <a href="/about.html"  class="col-6 p-4"><div>About</div></a>
-                        <a href='/contact.html'  class="col-6 p-4"><div>Contact</div></a>
+                        <a href="/website-optimization.html" id="website" class="col-sm-6 col-lg-3 mycard"><div>Website Optimization</div></a>
+                        <a href="/immersive-media.html"  class="col-sm-6 col-lg-3 mycard"><div>VR Immersive Media</div></a>
+                         <a href="/about.html"  class="col-sm-6 col-lg-3 mycard"><div>About</div></a>
+                        <a href='/contact.html'  class="col-sm-6 col-lg-3 mycard"><div>Contact</div></a>
                         </div>
                         
                 </nav>
@@ -49,28 +47,31 @@
                <div class="row">
                 <h3 class="p-5 col">Working with you one-on-one</h3>  
                 </div>
+                    <hr>
                  <div class="row">
                 <h3 class="p-5 col text-right">Discovering a technological strategy</h3>  
                 </div>
+                <hr>
                 <div class="row">
                 <h3 class="p-5 col">Crafting an experience for your customers</h3>  
                 </div>  
+                <hr>
             </section>
         
-            <section class="container d-block text-success">
-                <div class="row">
-                <div class="col">
-                    <h4 class="text-center">Here's what my clients have to say:</h4>
+            <section class="container-fluid text-success padding">
+                <div class="row padding">
+                    <div class="col">
+                        <h4 class="text-center">Here's what my clients have to say:</h4>
+                    </div>
                 </div>
-                </div>
-                <div class="row">
-                <div class="col">
+                <div class="row padding">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                 <p>"Justin is cool and fun" <br><br> - Rebekah Middleton, Founder and CEO of Supreme Solutions </p>
                 </div>
-                <div class="col">
+                <div class="col-xs-12 col-sm-6 col-md-4">
                 <p>"Justin will rid the world of the evils of Capitalism" <br><br> - Karl Marx, Father of Thought</p>
                 </div>
-                <div class="col">
+                <div class="col-xs-12 col-md-4">
                 <p>"Justin knows what he's doing" <br><br>- Literally No One</p>
                 </div>
                 </div>
@@ -78,10 +79,11 @@
                 
             </section>
             
-            <section class="container-fluid d-block">
+            <section class="container-fluid padding row">
             <H3 class="text-center"> Learn more about Justin with some HD Video Content</H3>
-                 <video></video>
-                <video></video>
+                <div class="embed-responsive embed-responsive-16by9 m-2 align-items-middle myvideo">
+                  <iframe class="embed-responsive-item p-3" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen align="middle"></iframe>
+                </div>
             </section>
             <section class="container">
                 <h3 class="text-center">How can I help you?</h3>
@@ -100,7 +102,7 @@
                 </form>
             </section>  
         </main>
-        <footer class="container">
+        <footer class="container m-2">
            <p>Justin Kuhn's site for digital media Freelance services</p>
         </footer>
     </body>
@@ -115,6 +117,7 @@ if ("geolocation" in navigator) {
 }-->
 
 <!--
+ color palette
 
 change digital media for hire to something better
 
@@ -124,6 +127,6 @@ body:
 quotes, big points, showy 2d example of work, video
 
 tooltips if needed
-
+<i></i> tags for social media
 
 -->
