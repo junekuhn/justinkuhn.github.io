@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Webpage Cover</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://aframe.io/releases/0.9.0/aframe.min.js"> </script>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+   
+  </head>  
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id="glitch" src="https://cdn.glitch.com/b3323a98-a056-4dbf-80c6-f7b1717a8f40%2Fech(1).jpg?1553186943789">
+<!--         <img id="sample2" src="">
+        <img id="sample3" src="">
+         -->
+<!--         <script>
+        AFRAME.registerComponent( 'swap-scenes', {
+            schema: {
+              src: { type: "source" }
+          },
+          
+            init: function() {
+              el.addEventListener('click',function() {
+
+              }
+          }
+        }
+        </script> -->
+      </a-assets>
+    
+      <a-sky id="image-360" radius="10" src="#glitch" animation="property: rotation; dur: 120000; loop: true; easing: linear; to: 0 360 0"></a-sky>
+      
+    </a-scene>
+  </body>
+</html>
