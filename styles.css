@@ -23,8 +23,8 @@ html, body {
 
 
 .thehead {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    min-height: 400px;
+    max-height: 600px;
 }
 .mycard {
     background-size: contain;
@@ -69,12 +69,6 @@ i:hover {
     width: 100%;
 }
 
-iframe {
-    
-height: 400px !important;
-    
-    
-}
 /*
 
 background #BDC3BE
