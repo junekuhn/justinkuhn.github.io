@@ -49,15 +49,17 @@ nav {
 }
 a:link, a:visited {
 
-  color: black;
+  color: #333;
   text-align: center; 
 
 
 }
 
-a:hover {
-  background-color: #525354ff;
-  
+a:hover, a:active {
+  background-color: #333;
+  color: #eee;
+  text-decoration: none;
+
 }
 
 i:hover {
@@ -67,6 +69,11 @@ i:hover {
 .myfooter {
    height: 100px;
     width: 100%;
+}
+
+.mylinks:hover {
+    color: #eee;
+    text-decoration: none;
 }
 
 /*
