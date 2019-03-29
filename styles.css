@@ -30,11 +30,14 @@ html, body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center; 
-    padding: 3em
+    padding: 3em;
+    
 }
+
 .mycard:hover {
     color: #ffffff;
   text-decoration: none;
+      background-color: #333;
 }
 
 h1, h2, h3 {
