@@ -51,12 +51,13 @@ nav {
     padding: 2em
 }
 a:link, a:visited {
-
   color: #333;
   text-align: center; 
 
 
 }
+
+
 
 a:hover, a:active {
   background-color: #eee;
@@ -75,7 +76,8 @@ i:hover {
 }
 
 .mylinks:hover {
-    color: #eee;
+    background-color: #222;
+    color: #EEE;
     text-decoration: none;
 }
 
