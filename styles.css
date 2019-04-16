@@ -19,6 +19,9 @@ html, body {
 .col {
     background-color:  #e1e1e1;
     color: #525354ff;
+/*    this is for the dropdowns*/
+    color: #eee;
+  text-decoration: none;
 }
 
 
@@ -79,6 +82,19 @@ i:hover {
     background-color: #222;
     color: #EEE;
     text-decoration: none;
+}
+
+#name { 
+    
+    position:absolute;
+    text-align: center;
+    width: 100%;
+    top:20px; 
+    z-index:2;
+}
+
+li:hover {
+    color:white;
 }
 
 /*
