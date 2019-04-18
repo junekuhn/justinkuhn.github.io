@@ -97,6 +97,15 @@ li:hover {
     color:white;
 }
 
+@media  (max-width: 400px) {
+   h1 .heads {
+        font-size: 80px;
+    }   
+     .heads {
+        font-size: 30px;
+    }
+}
+
 /*
 
 background #BDC3BE
