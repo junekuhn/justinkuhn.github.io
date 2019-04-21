@@ -97,6 +97,21 @@ li:hover {
     color:white;
 }
 
+.vrlist {
+    list-style-type:square;
+    list-style-position: inside;
+    outline-style: inset;
+    padding: 1em;
+    background-color: #666;
+        
+}
+
+.vritem {
+    margin: 1em;
+    color: #eee;
+    font-size: 18px;
+}
+
 @media  (max-width: 400px) {
    h1 .heads {
         font-size: 80px;
